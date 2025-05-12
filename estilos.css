@@ -1,16 +1,101 @@
 @import url('./css/cabecalho.css');
 @import url('./css/destaque.css');
+@import url('./css/servicos.css');
+
+
+:root {
+    /*Cores*/
+    --cor-primaria-dark: #c13724;
+    --cor-primaria-ligth: #ee6451;
+    --cor-secundaria-dark: #f5e6d6;
+    --cor-secundaria-ligth: #fff5eb;
+    --cor-terciaria-dark: #a2b72b;
+    --cor-terciaria-medio: #cbda74;
+    --cor-terciaria-ligth: #eff2e1;
+    --cor-neutra-dark: #444444;
+    --cor-neutra-medio: #b9b9b9;
+    --cor-neutra-ligth: #ffffff;
+
+
+    /*Tipografia*/
+
+    --font-sigmar: 'Sigmar', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+
+    /*Tamanhos de fontes*/
+    --font-size-xxxl: 4.5rem;
+    --font-size-xxl: 2.625rem;
+    --font-size-xl: 2.438rem;
+    --font-size-l: 1.938rem;
+    --font-size-xm: 1.563rem;
+    --font-size-m: 1.25rem;
+    --font-size-b: 1rem;
+    --font-size-s: 0.813rem;
+
+    /*Alturas das linhas*/
+    --line-heigth: 120%;
+
+
+    /*Espaçamentos*/
+    --padding-5xl: 4.75rem;
+    --padding-4xl: 4rem;
+    --padding-3xl: 3.75rem;
+    --padding-xxl: 2.5rem;
+    --padding-xl: 2rem;
+    --padding-l: 1.5rem;
+    --padding-m: 1rem;
+    --padding-s: 0.5rem;
+    --padding-xs: 0.25rem;
+
+    --gap-xxxl: 6rem;
+    --gap-xxl: 2.5rem;
+    --gap-xl: 2rem;
+    --gap-l: 1.5rem;
+    --gap-m: 1rem;
+    --gap-s: 0.5rem;
+    --gap-xs: 0.25rem;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-sigmar);
+    line-height: var(--line-heigth);
+}
+
+h1 {
+    font-size: var(--font-size-xxxl);
+}
+
+h2 {
+    font-size: var(--font-size-xxl);
+}
+
+h3 {
+    font-size: var(--font-size-xl);
+}
+
+h4 {
+    font-size: var(--font-size-l);
+}
+
+h5 {
+    font-size: var(--font-size-xm);
+}
+
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #444444;
+    font-family: var(--font-poppins);
+    color: var(--cor-neutra-dark);
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: var(--cor-neutra-ligth);
 
     .container {
         width: 1200px;
     }
 }
-
