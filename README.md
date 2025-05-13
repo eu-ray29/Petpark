@@ -87,4 +87,4 @@ Este projeto foi desenvolvido durante o curso:
 **Raynara Ferreira**
 Este projeto é apenas para fins de estudo e prática.
 
-📫 Contato: raynara.seuemail@email.com
+📫 Contato: raynaravitoria755@email.com
