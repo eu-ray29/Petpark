@@ -19,12 +19,21 @@
 .planos-titulo {
     color: var(--cor-secundaria-ligth);
 
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+
 }
 
 .lista-planos {
     display: flex;
     justify-content: space-between;
     gap: var(--gap-xl);
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .cartao {
@@ -36,10 +45,16 @@
     padding: var(--padding-m);
     border-radius: 1rem;
     flex-grow: 1;
+
+    @media (max-width: 768px) {
+        width: 50%;
+    }
 }
 
 .cartao > h3 {
     font-size: var(--font-size-l);
+
+
 }
 
 .cartao > p {

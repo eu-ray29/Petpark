@@ -6,11 +6,21 @@
     padding-bottom: var(--padding-xl);
 }
 
+.logo {
+    @media (max-width: 430px) {
+        width: 30%;
+    }
+}
+
 .alinhamento-cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: var(--padding-l);
+
+    @media (max-width: 768px) {
+        gap: var(--gap-m);
+    }
 }
 
 .label-busca {
@@ -21,6 +31,8 @@
     border: 1px solid var(--cor-neutra-dark);
     padding: var(--padding-s) var(--padding-m);
     border-radius: 2rem;
+
+
 }
 
 .label-busca input {
@@ -29,6 +41,11 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+
+    @media (max-width: 768px) {
+        width: 50%;
+    }
+
 }
 
 .label-busca input {
@@ -70,6 +87,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 1rem 0;
+
 }
 
 .menu-link {
@@ -90,6 +108,7 @@
     }
 }
 
-.menu-link:hover::after, .menu-link:focus::after {
+.menu-link:hover::after,
+.menu-link:focus::after {
     width: 100%;
 }
