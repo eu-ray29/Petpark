@@ -4,6 +4,8 @@
 @import url('./css/planos.css');
 @import url('./css/ofertas.css');
 @import url('./css/parceiros.css');
+@import url('./css/newsletter.css');
+@import url('./css/rodape.css');
 
 
 :root {
@@ -18,6 +20,9 @@
     --cor-neutra-dark: #444444;
     --cor-neutra-medio: #b9b9b9;
     --cor-neutra-ligth: #ffffff;
+
+    --cor-primaria-box-shadow: rgba(193, 55, 36, 0.4);
+    --cor-secundaria-box-shadow: rgba(162, 183, 43, 0.4);
 
 
     /*Tipografia*/

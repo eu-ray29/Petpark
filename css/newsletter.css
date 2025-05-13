@@ -1,0 +1,54 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xl);
+    width: 100%;
+    padding: var(--padding-4xl) 0;
+    background-color: var(--cor-secundaria-ligth);
+}
+
+.newsletter h2 {
+    color: var(--cor-primaria-ligth);
+}
+
+.newsletter p {
+    font-size: var(--font-size-xm);
+
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap-m);
+    align-items: center;
+}
+
+.botao-enviar {
+    padding: var(--padding-s) var(--padding-l);
+    background-color: var(--cor-primaria-ligth);
+    color: var(--cor-neutra-ligth);
+    border: none;
+    border-radius: 32rem;
+    cursor: pointer;
+    font-size: var(--font-size-xm);
+}
+
+.formulario-input {
+    padding: var(--padding-s) var(--padding-l);
+    border: 1px solid var(cor-neutra-dark);
+    background-color: transparent;
+    border-radius: 2rem;
+    flex: 1 0 200px;
+}
+
+.formulario-input:user-valid {
+    border: 2px solid var(--cor-terciaria-dark);
+}
+
+.formulario-input:user-invalid {
+    border: 2px solid var(--cor-primaria-dark);
+}
+
