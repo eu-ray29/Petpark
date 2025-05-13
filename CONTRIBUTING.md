@@ -23,11 +23,6 @@ Aqui vão algumas orientações para tornar o processo organizado e fácil para 
    `git push origin responsivo-smartphones`
 6. Envie um **pull request** explicando suas mudanças
 
-# 🛠️ Contribuindo com o Pet Park
-
-Olá! Que bom que você quer contribuir com o projeto **Pet Park**.  
-Aqui vão algumas orientações para tornar o processo organizado e fácil para todos.
-
 ## 💬 Dúvidas?
 
 Se tiver dúvidas, abra uma **issue** ou entre em contato. Fico feliz em ajudar!
